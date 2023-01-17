@@ -1,92 +1,24 @@
-index.html
-<h1>Hola desde HTML</h1>
-<script>
-   /* var edad = prompt("captura tu edad ");
+<!DOCTYPE html>
+<html lang="en">
 
-   if(edad>= 100)
-    console.log("ingrese una edad correspondiente ");
-    else if (edad<0){
-    console.log("ingrese una edad correspondiente  ")
-   }
-    else if  (edad>= 18)
-    console.log("eres mayor de edad ");
- */
-/* const saludo = (nombre) =>{
-    console.log("hola" + nombre);
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-}
-    saludo("daniel");
+<body>
 
-    const edad = prompt("captura tu edad ");
+    <div id="app">
+        {{contador}}
 
-    const calculaedad = (edad) =>{
-        if (edad <0 || edad > 100){
-            console.log("error. edad incorrecta ");
-        }else if (edad < 18){
-            connsole.log("eres menor de edad");
-        }else if (edad >= 18){
-            console.log("eres mayor de edad");
-        }
-    }
-    calculaedad(edad); */
+    <button v-on:click="incrementar()">Incrementar</button>
+    </div>
 
-    /*  const numero =prompt("pon un numero del 1 al 7 ");
-    const capturanumero =(numero) =>{
-        if(numero <0 || numero >7){
-            return "error seleccione un numero correcto";
-        }else if (numero == 1){
-            return "lunes ";
-        }
-           else if (numero == 2){
-            return "martes ";
-    }else if (numero == 3){
-        return "miercoles ";
-            }else if (numero == 4){
-                return "jueves ";          
-        }else if (numero == 5){
-            return "viernes ";
-        }else if (numero == 6){
-            return "sabado ";}
-        else if (numero == 7){
-            return "domingo ";}
-            else {return
-"error ";
-            }}
-            
-        capturanumero(numero); */
-       /*  const alumnos=["pedro", "hector","ana","Daniel","sergio","armando","Lupita","nancy"];
-        console.log(alumnos[4]);
-        const nombre = prompt("captura el nombre");
-        alumnos.push(nombre);
-        console.log(alumnos); */
-        const personas = {
-            nombre: "aaron",
-            edad: 22,
-            genero: "Masculino",
-            email: "pugsitadehector@gmail.com",
-            carrera: "ingieneria en trabajo vocales",
-            raza: "Pug",
-            enfermedades: "Todas",
-            tipodesangre: "pugsitivo",
-            respiracion: false
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="vue.js"></script>
 
-        }
-        const nombre = personas.nombre;
-        const edad = personas.edad;
-        const genero = personas.genero;
-        const email = personas.email;
-        const carrera = personas.carrera;
-        const raza = personas.raza;
-        const enfermedades = personas.enfermedades;
-        const tipodesangre = personas.tipodesangre;
-        const respiracion = personas.respiracion;
-
-        console.log(`Mi nombre es ${nombre} tengo ${edad} de edad, soy${genero} mi correo es ${email}
-        estudio una carrera en ${carrera} soy de un tipo de ${raza} tengo ${enfermedades} las enfermedades que hay
-        mi tipo de sangre es ${tipodesangre} y mi respiracion es ${respiracion}`)
-   
-
-   
-</script>
 </body>
+
 </html>
