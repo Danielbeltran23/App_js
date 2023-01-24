@@ -11,7 +11,7 @@ vue.createapp({
             this.contador++;
         },
         decrementar(){
-            if[decremtar=0]
+             
 
         }
     },
