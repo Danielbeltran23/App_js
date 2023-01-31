@@ -1,0 +1,7 @@
+vue.createAPP({
+    data(){
+        return{
+            
+        }
+    }
+})
